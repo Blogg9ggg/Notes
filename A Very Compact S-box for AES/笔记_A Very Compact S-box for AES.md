@@ -68,8 +68,12 @@
    具体推导:
    ![Fig_2](./assets/z2.PNG)
    ![Fig_3](./assets/z3.PNG)
-
-
-
    
-6. 123
+6. The S-box Algorithm Using Subfield Arithmetic(5)\
+   合理地设置 $r(y)=y^2+\tau y+\nu,s(z)=z^2+\Tau z+\Nu$ 的系数有助于简化公式, 而这其中最有效的方式是令二者的迹统一, 因此从现在开始, 我们令 $\tau=\Tau=1$. 
+
+7. Hierarchical Structure\
+   这部分展示最优设计的求逆器的结构. 用 $\oplus,\otimes$ 分别表示子域中的加法和乘法. 在 $GF(2^8)$, 唯一要求的操作是求逆, 其多项式基求逆器如下图所示:\
+   ![Fig_4](./assets/HierarchicalStructure.png)
+
+8. 123
