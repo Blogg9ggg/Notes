@@ -61,11 +61,11 @@
 5. The S-box Algorithm Using Subfield Arithmetic(4)\
    现在开始考虑 $GF(2^8)$ 上的多项式基之间的乘法 (模 $r(y)=y^2+\tau y+\nu$):
    $$(\gamma_1 y + \gamma_0)(\delta_1 y + \delta_0) = \gamma_1 \delta_1 y^2 + (\gamma_1 \delta_0 + \gamma_0 \delta_1)y + \gamma_0 \delta_0=(\gamma_1 \delta_0+\gamma_0 \delta_1+\gamma_1 \delta_1 \tau)y+(\gamma_0 \delta_0+\gamma_1 \delta_1 \nu)$$
-   具体推导: 
+   具体推导: \
    ![Fig_1](./assets/z1.PNG)
    由此可进一步推导出逆的计算公式:
    $$(\gamma_1 y+\gamma_0)^{-1}=[\theta^{-1}\gamma_1]y+[\theta^{-1}(\gamma_0+\gamma_1 \tau)], \theta=\gamma_1^{2}\nu+\gamma_1 \gamma_0 \tau+\gamma_0^{2}$$
-   具体推导:
+   具体推导:\
    ![Fig_2](./assets/z2.PNG)
    ![Fig_3](./assets/z3.PNG)
    
